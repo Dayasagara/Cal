@@ -9,13 +9,13 @@ func RegistrationMail() {
 
 	hostURL := "smtp.gmail.com"
 	hostPort := "587"
-	emailSender := "dayasagara789@gmail.com"
+	emailSender := "@gmail.com"
 	fmt.Print("Provide password for " + emailSender + " : \n")
 	var password string
 
 	//taking password as input from console
 	fmt.Scan(&password)
-	emailReceiver := "dayasagara.v-g@capgemini.com"
+	emailReceiver := "@capgemini.com"
 
 	//PlainAuth:-returned Auth uses the given username and password to authenticate to host and act as identity
 	emailAuth := smtp.PlainAuth(
