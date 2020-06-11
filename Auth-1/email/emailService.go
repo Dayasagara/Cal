@@ -15,7 +15,7 @@ func RegistrationMail() {
 
 	//taking password as input from console
 	fmt.Scan(&password)
-	emailReceiver := "@capgemini.com"
+	emailReceiver := "@gmail.com"
 
 	//PlainAuth:-returned Auth uses the given username and password to authenticate to host and act as identity
 	emailAuth := smtp.PlainAuth(
